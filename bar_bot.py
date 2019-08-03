@@ -57,7 +57,7 @@ def bar_demo():
     print("Welcome to the Salty Spitoon. Home of the best whiskey for the next 100 miles!")
     print("*" * 78)
     print("'Howdy cowpoke. What can I get you?'")
-    bar_bot.converse()
+    bar_bot.converse(quit="bye")
 
 
 bar_demo()
